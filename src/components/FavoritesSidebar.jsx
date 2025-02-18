@@ -20,7 +20,7 @@ function FavoritesSidebar() {
                   alt={coin.name} 
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = 'fallback-image-url.png'; // İsteğe bağlı: Yedek bir resim URL'si ekleyebilirsiniz
+                    e.target.src = 'fallback-image-url.png'; 
                   }}
                 />
                 <span>{coin.name}</span>
