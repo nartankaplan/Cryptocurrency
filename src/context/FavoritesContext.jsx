@@ -22,7 +22,7 @@ export function FavoritesProvider({ children }) {
         const coinData = {
           id: coin.id,
           name: coin.name,
-          image: coin.image?.large || coin.image, // Detay sayfasından veya liste sayfasından gelen veriye göre uyarla
+          image: coin.image?.large || coin.image, 
           current_price: coin.market_data?.current_price.usd || coin.current_price,
           symbol: coin.symbol
         }
