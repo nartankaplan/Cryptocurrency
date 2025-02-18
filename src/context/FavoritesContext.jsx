@@ -18,7 +18,7 @@ export function FavoritesProvider({ children }) {
       if (isFavorite) {
         return prev.filter(fav => fav.id !== coin.id)
       } else {
-        // Sadece gerekli verileri saklayalım
+        
         const coinData = {
           id: coin.id,
           name: coin.name,
