@@ -1,4 +1,5 @@
 # Cryptocurrency
+Used React library and CoinGecko's API, developed a cryptocoin display web page with their current market costs.
 
 ![image](https://github.com/user-attachments/assets/66dc38c8-fee3-454b-81a1-d7adfee658a3)
 
